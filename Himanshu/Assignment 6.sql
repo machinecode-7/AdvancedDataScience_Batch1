@@ -1,0 +1,12 @@
+select * from himanshu.people_data;
+select sex from himanshu.people_data;
+select * from himanshu.people_data limit 2;
+select * from himanshu.people_data;
+select distinct Last_Name, sex from himanshu.people_data;
+select * from himanshu.people_data where sex = "Male";
+insert into himanshu.people_data values (451, '1234', 'Hims', 'Shah', 'Male', 'test@gmail.com', NULL, NULL, NULL);
+select * from himanshu.people_data where Phone is null;
+select distinct First_Name, Last_name from himanshu.people_data;
+select count(distinct Last_Name) from himanshu.people_data;
+select count(*) from himanshu.people_data;
+delete from himanshu.people_data where Phone is null;
